@@ -813,3 +813,12 @@ C:\Users\makso\Desktop\ApiChessClub\obj\Debug\net6.0\refint\ApiChessClub.dll
 C:\Users\makso\Desktop\ApiChessClub\obj\Debug\net6.0\ApiChessClub.pdb
 C:\Users\makso\Desktop\ApiChessClub\obj\Debug\net6.0\ApiChessClub.genruntimeconfig.cache
 C:\Users\makso\Desktop\ApiChessClub\obj\Debug\net6.0\ref\ApiChessClub.dll
+C:\Users\makso\Desktop\ApiChessClub\bin\Debug\net6.0\Nlog.config
+C:\Users\makso\Desktop\ApiChessClub\bin\Debug\net6.0\MailKit.dll
+C:\Users\makso\Desktop\ApiChessClub\bin\Debug\net6.0\MimeKit.dll
+C:\Users\makso\Desktop\ApiChessClub\bin\Debug\net6.0\NLog.dll
+C:\Users\makso\Desktop\ApiChessClub\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+C:\Users\makso\Desktop\ApiChessClub\bin\Debug\net6.0\NLog.MailKit.dll
+C:\Users\makso\Desktop\ApiChessClub\bin\Debug\net6.0\NLog.Web.dll
+C:\Users\makso\Desktop\ApiChessClub\bin\Debug\net6.0\NLog.Web.AspNetCore.dll
+C:\Users\makso\Desktop\ApiChessClub\bin\Debug\net6.0\BouncyCastle.Crypto.dll

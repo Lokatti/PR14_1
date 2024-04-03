@@ -1,0 +1,146 @@
+2024-04-04 02:38:17.4275|DEBUG|Program|My API starts
+2024-04-04 02:38:17.8662|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-04-04 02:38:17.9172|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2024-04-04 02:38:17.9426|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\makso\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-04 02:38:19.0864|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\makso\AppData\Local\ASP.NET\DataProtection-Keys\key-7e967cfa-5ae2-4e82-95b8-592cbeb554e7.xml'.
+2024-04-04 02:38:19.0864|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {7e967cfa-5ae2-4e82-95b8-592cbeb554e7}.
+2024-04-04 02:38:19.0990|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {7e967cfa-5ae2-4e82-95b8-592cbeb554e7} with expiration date 2024-05-28 12:29:16Z as default key.
+2024-04-04 02:38:19.0990|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-04-04 02:38:19.0990|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI.
+2024-04-04 02:38:19.0990|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-04-04 02:38:19.0990|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2024-04-04 02:38:19.0990|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2024-04-04 02:38:19.1107|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {7e967cfa-5ae2-4e82-95b8-592cbeb554e7} as the default key.
+2024-04-04 02:38:19.1107|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {7e967cfa-5ae2-4e82-95b8-592cbeb554e7} was loaded during application startup.
+2024-04-04 02:38:19.2105|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2K6SI8015V" accepted.
+2024-04-04 02:38:19.2105|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2K6SI8015V" started.
+2024-04-04 02:38:19.2481|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN2K6SI8015V" received FIN.
+2024-04-04 02:38:19.2527|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN2K6SI8015V" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-04 02:38:19.2527|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2K6SI8015V" disconnecting.
+2024-04-04 02:38:19.2527|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2K6SI8015V" stopped.
+2024-04-04 02:38:19.6084|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2K6SI80160" accepted.
+2024-04-04 02:38:19.6084|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2K6SI80160" started.
+2024-04-04 02:38:19.1983|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://192.168.1.218:5000
+2024-04-04 02:38:20.0184|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly ApiChessClub
+2024-04-04 02:38:20.0184|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-04-04 02:38:20.0184|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-04-04 02:38:19.6284|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://192.168.1.218:5000/swagger/index.html - -
+2024-04-04 02:38:20.9059|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2024-04-04 02:38:20.9059|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2024-04-04 02:38:20.9256|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html'
+2024-04-04 02:38:20.9256|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-04-04 02:38:20.9961|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection.
+2024-04-04 02:38:21.0903|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2K6SI80161" accepted.
+2024-04-04 02:38:21.0903|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2K6SI80161" started.
+2024-04-04 02:38:21.0903|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2K6SI80162" accepted.
+2024-04-04 02:38:21.0903|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2K6SI80162" started.
+2024-04-04 02:38:21.0987|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection.
+2024-04-04 02:38:21.0987|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2K6SI80160" completed keep alive response.
+2024-04-04 02:38:20.0184|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-04-04 02:38:21.0903|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://192.168.1.218:5000/_vs/browserLink - -
+2024-04-04 02:38:25.2325|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2K6SI80162" completed keep alive response.
+2024-04-04 02:38:21.0987|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://192.168.1.218:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 1474.2472ms
+2024-04-04 02:38:23.0193|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-04-04 02:38:25.2325|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://192.168.1.218:5000/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4140.9425ms
+2024-04-04 02:38:21.0903|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://192.168.1.218:5000/_framework/aspnetcore-browser-refresh.js - -
+2024-04-04 02:38:29.9181|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2K6SI80161" completed keep alive response.
+2024-04-04 02:38:30.3394|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN2K6SI80160" received FIN.
+2024-04-04 02:38:30.3394|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN2K6SI80162" received FIN.
+2024-04-04 02:38:30.3394|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2K6SI80160" disconnecting.
+2024-04-04 02:38:30.3394|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2K6SI80160" stopped.
+2024-04-04 02:38:30.3394|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN2K6SI80160" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-04 02:38:30.3394|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN2K6SI80162" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-04 02:38:30.3394|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2K6SI80162" disconnecting.
+2024-04-04 02:38:30.3394|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2K6SI80162" stopped.
+2024-04-04 02:38:27.4416|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\makso\Desktop\ApiChessClub\
+2024-04-04 02:38:31.0847|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2024-04-04 02:38:29.9181|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://192.168.1.218:5000/_framework/aspnetcore-browser-refresh.js - - - 200 12356 application/javascript;+charset=utf-8 8826.5012ms
+2024-04-04 02:38:32.2171|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://192.168.1.218:5000/swagger/v1/swagger.json - -
+2024-04-04 02:38:33.2860|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2024-04-04 02:38:33.2860|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json'
+2024-04-04 02:38:33.2860|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-04-04 02:38:33.4293|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2K6SI80161" completed keep alive response.
+2024-04-04 02:38:33.4293|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://192.168.1.218:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1212.3214ms
+2024-04-04 02:38:38.5951|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://192.168.1.218:5000/api/Groups - -
+2024-04-04 02:38:39.3976|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2024-04-04 02:38:39.3976|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Groups'
+2024-04-04 02:38:39.4093|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'ApiChessClub.Controllers.GroupsController.GetGroups (ApiChessClub)' with route pattern 'api/Groups' is valid for the request path '/api/Groups'
+2024-04-04 02:38:39.4093|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'ApiChessClub.Controllers.GroupsController.GetGroups (ApiChessClub)'
+2024-04-04 02:38:39.4093|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2024-04-04 02:38:39.4093|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2024-04-04 02:38:40.6490|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated.
+2024-04-04 02:38:40.6490|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'ApiChessClub.Controllers.GroupsController.GetGroups (ApiChessClub)'
+2024-04-04 02:38:41.8117|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetGroups", controller = "Groups"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ApiChessClub.Models.Group]]] GetGroups() on controller ApiChessClub.Controllers.GroupsController (ApiChessClub).
+2024-04-04 02:38:42.5957|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2024-04-04 02:38:42.5957|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2024-04-04 02:38:42.5957|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-04-04 02:38:42.5957|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2024-04-04 02:38:42.5957|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-04-04 02:38:42.5957|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller ApiChessClub.Controllers.GroupsController (ApiChessClub)
+2024-04-04 02:38:42.8974|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-04-04 02:38:42.9390|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller ApiChessClub.Controllers.GroupsController (ApiChessClub)
+2024-04-04 02:38:42.9390|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-04-04 02:38:42.9390|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-04-04 02:38:42.9390|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-04-04 02:38:42.9390|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-04-04 02:38:42.9390|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method ApiChessClub.Controllers.GroupsController.GetGroups (ApiChessClub) - Validation state: Valid
+2024-04-04 02:38:44.7060|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 6.0.28 initialized 'ChessClubContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.28' with options: None
+2024-04-04 02:38:45.7412|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<Group>()'
+2024-04-04 02:38:46.0103|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Group>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Group.GroupsId (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Group.Description (string) Required, 1], [Property: Group.GroupTypeId (int) Required, 2], [Property: Group.GroupsName (string) Required MaxLength(100), 3], [Property: Group.UsersId (int?), 4] }
+        SELECT g.GroupsID, g.Description, g.GroupTypeID, g.GroupsName, g.UsersID
+        FROM Groups AS g), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Group>, 
+    ApiChessClub.Models.ChessClubContext, 
+    False, 
+    False, 
+    True
+)'
+2024-04-04 02:38:46.1027|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2024-04-04 02:38:46.1623|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (55ms).
+2024-04-04 02:38:46.1776|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'ChessClub' on server 'Lokatti\SQLEXPRESS'.
+2024-04-04 02:38:46.7503|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'ChessClub' on server 'Lokatti\SQLEXPRESS'.
+2024-04-04 02:38:46.7503|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [g].[GroupsID], [g].[Description], [g].[GroupTypeID], [g].[GroupsName], [g].[UsersID]
+FROM [Groups] AS [g]
+2024-04-04 02:38:46.8792|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (117ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [g].[GroupsID], [g].[Description], [g].[GroupTypeID], [g].[GroupsName], [g].[UsersID]
+FROM [Groups] AS [g]
+2024-04-04 02:38:47.7929|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'ChessClubContext' started tracking 'Group' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-04-04 02:38:47.8310|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'ChessClubContext' started tracking 'Group' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-04-04 02:38:47.8310|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'ChessClubContext' started tracking 'Group' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-04-04 02:38:47.8484|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader was disposed.
+2024-04-04 02:38:47.8484|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'ChessClub' on server 'Lokatti\SQLEXPRESS'.
+2024-04-04 02:38:47.8717|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'ChessClub' on server 'Lokatti\SQLEXPRESS'.
+2024-04-04 02:38:47.8796|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method ApiChessClub.Controllers.GroupsController.GetGroups (ApiChessClub), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4089.0304ms.
+2024-04-04 02:38:48.7795|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-04-04 02:38:48.7795|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-04-04 02:38:48.7795|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-04-04 02:38:48.7795|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-04-04 02:38:48.7830|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-04-04 02:38:48.7830|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-04-04 02:38:48.7830|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-04-04 02:38:48.7830|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-04-04 02:38:48.7830|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter based on Accept header 'text/plain'.
+2024-04-04 02:38:48.7830|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Could not find an output formatter based on content negotiation. Accepted types were (text/plain)
+2024-04-04 02:38:48.7830|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-04-04 02:38:48.7830|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2024-04-04 02:38:48.7830|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-04-04 02:38:48.7830|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[ApiChessClub.Models.Group, ApiChessClub, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-04-04 02:38:49.6746|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-04-04 02:38:49.6746|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-04-04 02:38:49.6746|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-04-04 02:38:49.6746|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action ApiChessClub.Controllers.GroupsController.GetGroups (ApiChessClub) in 7080.1582ms
+2024-04-04 02:38:50.5427|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'ApiChessClub.Controllers.GroupsController.GetGroups (ApiChessClub)'
+2024-04-04 02:38:51.6640|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2K6SI80161" completed keep alive response.
+2024-04-04 02:38:51.6640|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'ChessClubContext' disposed.
+2024-04-04 02:38:51.6782|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://192.168.1.218:5000/api/Groups - - - 200 - application/json;+charset=utf-8 13083.0048ms
+2024-04-04 02:39:00.3723|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN2K6SI80161" received FIN.
+2024-04-04 02:39:00.3723|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2K6SI80161" disconnecting.
+2024-04-04 02:39:00.3723|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2K6SI80161" stopped.
+2024-04-04 02:39:00.3723|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN2K6SI80161" sending FIN because: "The Socket transport's send loop completed gracefully."
