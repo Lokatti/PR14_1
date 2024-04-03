@@ -1,0 +1,24 @@
+name: C# Syntax Check CI
+
+on: [push, pull_request]
+
+jobs:
+  warnings:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Setup
+      uses: actions/setup-dotnet@v2
+      with:
+        dotnet-version: '6.0.x'
+
+    - name: Dependencies
+      run: dotnet restore
+
+    - name: Install SonarLint Analyzers
+      run: dotnet add ApiChessClub.csproj package SonarAnalyzer.CSharp
+
+    - name: Build with SA
+      run: dotnet build --no-restore -c Release
